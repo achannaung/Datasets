@@ -195,7 +195,7 @@ def get_graph(chart, year, children1, children2, c3, c4, c5):
             
             
             # REVIEW6: Return dcc.Graph component to the empty division
-            return [dcc.Graph(figure=tree_fig), 
+            return[dcc.Graph(figure=tree_fig), 
                     dcc.Graph(figure=pie_fig),
                     dcc.Graph(figure=map_fig),
                     dcc.Graph(figure=bar_fig),
